@@ -1,0 +1,129 @@
+// --------------------------------------------------
+// TM Typography
+// --------------------------------------------------
+
+// Body reset
+// --------------------------------------------------
+
+html {
+	font-size: 10px; // static
+	}
+
+body {
+
+}
+
+
+// Links
+// -------------------------
+
+a,
+.link {
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+
+		text-decoration: underline;
+	}
+}
+
+a {
+	display: block;
+	font-size: 1.7rem;
+}
+
+// Images
+// -------------------------
+
+img {
+	vertical-align: middle;
+}
+
+// Typography
+// --------------------------------------------------
+
+.margin-brand { margin-top: 3rem; }
+.margin {
+	margin-top: 5rem;
+}
+
+.margin-row {
+	margin-top: 10rem;
+}
+// Body text
+// -------------------------
+
+p {
+font-size: 1.7rem;
+font-family: "Open Sans", "Verdana";
+}
+.brand-font{
+	font-size: 1.2rem;
+	font-family: "Open Sans", "Verdana";
+	letter-spacing: 1px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+// Headings
+// -------------------------
+
+.h1,
+.h2,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6{
+color:$contentColor;
+font-family: "Merriweather", "Verdana";
+}
+
+.h1 {
+	font-size: 4.8rem;
+}
+
+.h2 {
+	font-size: 3.6rem;
+}
+
+.h3 {
+	font-size: 2.4rem;
+}
+
+.h4 {
+	font-size: 2.2rem;
+}
+
+.h5 {
+	font-size: 1.4rem;
+	font-family: "Open Sans", "Verdana";
+}
+
+.h6 {
+	font-size: 1.4rem;
+}
+
+q {
+	font-family: "Merriweather";
+	font-size: 1.8rem;
+	color: $tint;
+	font-weight: 300;
+}
+
+.small {
+	font-size: 1.6rem;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.italic {
+	font-style: italic;
+}

@@ -1,0 +1,34 @@
+@media all and (max-width:991px) {
+	
+	#servicesSection .btn {
+		margin-bottom: 3rem;
+	}
+	
+	#heroSection .btn-outline {
+float: none;
+margin-bottom: 2rem;
+}
+	#heroSection .btn {
+		margin-right: auto;
+		margin-left:auto;
+		display:block;
+	}
+
+#slider {
+	height: 30rem;
+}
+
+#heroSection li {
+	margin-left: 1rem;
+}
+
+}
+
+@media (max-width:767px) {
+	.margin-row {
+		margin-top: 5rem;
+	}
+
+	
+
+}
